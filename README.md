@@ -1,4 +1,4 @@
-## Infering population sizes with boundary and recurrent mutations 
+# Infering population sizes with boundary and recurrent mutations 
 
 In this tutorial we learn how to use Bayesian estimators of the effective population size with a boundary and recurrent mutation models. 
 These models differ in the fact the BM model only permits mutations in monomorphic or fixed states, neglecting their contribution to frequency shifts between polymorphic states. 
@@ -8,7 +8,10 @@ We note that in order to assess the diversity levels of a species Watersons thet
 If you want to know more about the mechanics of these models, our should read the first section of:
 * Borges (2024) Evalutating the rarity of mutations in population genetics inferences biorXiv
 
-# The allelic counts 
+I order to start 
+
+
+## The allelic counts 
 Image that you inspect the allelic content (alleles 0 and 1) of a sampled of 10 inidividuals in a particular genomic position. You can see that the frequency of a certain allele may vary between 0 and $M$, these extremes representing when none or all the sampled individuals have it. 
 If we further sampled S genomic positions and count the number of positions in which the allele 1 appears 0, 1, ..., M times among the sampled individuals, you have the empirical sampled frequency spectrum. An visuall example follows. 
 
@@ -28,3 +31,4 @@ sampled SFS      2 2 2 2 2 2
 
 We note that this is a rather unlikely sampled frequency spectrum; usually the monomorphic counts dominate.
 
+ 
