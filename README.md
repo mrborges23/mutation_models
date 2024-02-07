@@ -83,25 +83,18 @@ Before summarizing the estimated population size, let us firs check wheather the
 
 We can now summarize the estimates for each model. We here output the 99% credible interval and the median:
 ```
-quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.05,0.99) )
-quantile(c(mcmc_recurrent1,mcmc_recurrent2), prob=c(0.01,.05,0.99) )
-quantile(c(mcmc_boundary_u1,mcmc_boundary_u2), prob=c(0.01,.05,0.99) )
-quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.05,0.99) )
+quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.5,0.99) )
+quantile(c(mcmc_recurrent1,mcmc_recurrent2), prob=c(0.01,.5,0.99) )
+quantile(c(mcmc_boundary_u1,mcmc_boundary_u2), prob=c(0.01,.5,0.99) )
+quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.5,0.99) )
 ```
 And obtained
-      1%       5%      99% 
-10.02130 10.02436 10.04150 
-> quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.05,0.99) )
-      1%       5%      99% 
-10.02130 10.02436 10.04150 
-> quantile(c(mcmc_recurrent1,mcmc_recurrent2), prob=c(0.01,.05,0.99) )
-      1%       5%      99% 
-9.416666 9.417330 9.421086 
-> quantile(c(mcmc_boundary_u1,mcmc_boundary_u2), prob=c(0.01,.05,0.99) )
-       1%        5%       99% 
- 9.996035 10.004700 10.069181 
-> quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.05,0.99) )
-      1%       5%      99% 
-9.384792 9.394731 9.454770 
+
+| quantile        |      1%  |    5%    |     99%  |
+|-----------------|----------|----------|----------|
+| BM mu fixed     | 10.02115 | 10.03159 | 10.04137 | 
+| BM mu fixed     | 9.416650 | 9.418904 | 9.421308 |
+| BM mu uncertain | 9.998025 | 10.03176 | 10.06866 | 
+| BM mu uncertain | 9.384474 | 9.419235 | 9.455736 |
 
 
