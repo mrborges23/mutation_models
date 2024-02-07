@@ -46,31 +46,62 @@ Now that all the functions are availablre in our environment, lets runs the esti
 Let us now see how these functions work. We will use data from our case study, the allele counts of the third codon position of the bacterium *Pseudomonas fluorescens*.
 Let ius first load the allelic counts in R. You can write down the vector our use the function ```scan()``` to read in a vector.
 ```{r}
+# allelic counts
 counts <- c(182747, 32606, 23601, 37990, 27474, 20903, 29517, 47825, 31377, 44219, 203259)
 ```
 We then set the mutation rate and its standard deviation. The standard deviation is only needed if we want to incorporate uncertainty in the mutation rate during the inferences.
 ```{r}
+# mutation rate
 mu  <- 0.00000000009300
 sd  <- 0.00000000000660
 ```
 We are now able to run the estimators. We first run the models
 ```{r}
-# The boundary mutation model with fixed mu
+# seed
+set.seed(1)
+
+# boundary mutation model with fixed mu
 mcmc_boundary1 <- mcmc_boundary(I,counts,mu)
 mcmc_boundary2 <- mcmc_boundary(I,counts,mu)
 
-# The recurrent mutation model with fixed mu
+# recurrent mutation model with fixed mu
 mcmc_recurrent1 <- mcmc_recurrent(I,counts,mu)
 mcmc_recurrent2 <- mcmc_recurrent(I,counts,mu)
 
-# Theboundary mutation model with uncertain mu
+# boundary mutation model with uncertain mu
 mcmc_boundary_u1 <- mcmc_boundary_umu(I,counts,mu,sd/2)
 mcmc_boundary_u2 <- mcmc_boundary_umu(I,counts,mu,sd/2)
 
-# The recurrent mutation model with uncertain mu
+# recurrent mutation model with uncertain mu
 mcmc_recurrent_u1 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
 mcmc_recurrent_u2 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
 ```
+Before summarizing the estimated population size, let us firs check wheather the mcmc chaing converged:
 
+
+
+
+We can now summarize the estimates for each model. We here output the 99% credible interval and the median:
+```
+quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.05,0.99) )
+quantile(c(mcmc_recurrent1,mcmc_recurrent2), prob=c(0.01,.05,0.99) )
+quantile(c(mcmc_boundary_u1,mcmc_boundary_u2), prob=c(0.01,.05,0.99) )
+quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.05,0.99) )
+```
+And obtained
+      1%       5%      99% 
+10.02130 10.02436 10.04150 
+> quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.05,0.99) )
+      1%       5%      99% 
+10.02130 10.02436 10.04150 
+> quantile(c(mcmc_recurrent1,mcmc_recurrent2), prob=c(0.01,.05,0.99) )
+      1%       5%      99% 
+9.416666 9.417330 9.421086 
+> quantile(c(mcmc_boundary_u1,mcmc_boundary_u2), prob=c(0.01,.05,0.99) )
+       1%        5%       99% 
+ 9.996035 10.004700 10.069181 
+> quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.05,0.99) )
+      1%       5%      99% 
+9.384792 9.394731 9.454770 
 
 
