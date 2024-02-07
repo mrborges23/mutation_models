@@ -48,3 +48,29 @@ Let ius first load the allelic counts in R. You can write down the vector our us
 ```{r}
 counts <- c(182747, 32606, 23601, 37990, 27474, 20903, 29517, 47825, 31377, 44219, 203259)
 ```
+We then set the mutation rate and its standard deviation. The standard deviation is only needed if we want to incorporate uncertainty in the mutation rate during the inferences.
+```{r}
+mu  <- 0.00000000009300
+sd  <- 0.00000000000660
+```
+We are now able to run the estimators. We first run the models
+```{r}
+# The boundary mutation model with fixed mu
+mcmc_boundary1 <- mcmc_boundary(I,counts,mu)
+mcmc_boundary2 <- mcmc_boundary(I,counts,mu)
+
+# The recurrent mutation model with fixed mu
+mcmc_recurrent1 <- mcmc_recurrent(I,counts,mu)
+mcmc_recurrent2 <- mcmc_recurrent(I,counts,mu)
+
+# Theboundary mutation model with uncertain mu
+mcmc_boundary_u1 <- mcmc_boundary_umu(I,counts,mu,sd/2)
+mcmc_boundary_u2 <- mcmc_boundary_umu(I,counts,mu,sd/2)
+
+# The recurrent mutation model with uncertain mu
+mcmc_recurrent_u1 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
+mcmc_recurrent_u2 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
+```
+
+
+
