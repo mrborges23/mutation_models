@@ -8,14 +8,16 @@ We note that in order to assess the diversity levels of a species Watersons thet
 If you want to know more about the mechanics of these models, our should read the first section of:
 * Borges (2024) Evalutating the rarity of mutations in population genetics inferences biorXiv
 
-I order to start 
+To run these estimator you will need two (or three) things:
+* the sampled frequency spectrum or the allelic counts
+* the mutation rate
+* if you want to consider possible errors in the mutation rate, its standard deviation is also necessary
 
 
 ## The allelic counts 
-Image that you inspect the allelic content (alleles 0 and 1) of a sampled of 10 inidividuals in a particular genomic position. You can see that the frequency of a certain allele may vary between 0 and $M$, these extremes representing when none or all the sampled individuals have it. 
-If we further sampled S genomic positions and count the number of positions in which the allele 1 appears 0, 1, ..., M times among the sampled individuals, you have the empirical sampled frequency spectrum. An visuall example follows. 
+Image that you inspect the allelic content (alleles 0 and 1) of a sampled of 10 inidividuals in a particular genomic position. You can see that the frequency of a certain allele may vary between 0 and $M$, these extremes representing when none or all the sampled individuals have the said allele. If you further sample $S$ genomic positions and count the number of positions in which the allele 1 appears in $0$, $1$, $...$ and $M$ of sampled individuals, you have obtained the empirical sampled site frequency spectrum. An visual example follows.
 
-Imagine that I sample 12 genomic positions in a four individuals with the following (very realistic) sequences 
+Imagine that you sample 12 genomic positions five individuals with the following (very realistic) sequences 
 
 ```
 Individual 1 |  A A A A A C C C C C C A
@@ -31,4 +33,11 @@ sampled SFS      2 2 2 2 2 2
 
 We note that this is a rather unlikely sampled frequency spectrum; usually the monomorphic counts dominate.
 
+# Running the estimators
+
+In order to run the estimators we first to load into our R session the script with all the necessary functions. We called this file ````mutation_models_functions.R``` and you can find it in this repository. 
+Open a new file script and write:
+```{R}
+source("mutation_models_functions.R")
+```
  
