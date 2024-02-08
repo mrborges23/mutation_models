@@ -99,10 +99,7 @@ points(mcmc_recurrent_u2,col=2)
 <img src="https://github.com/mrborges23/mutation_models/blob/main/mcmc_effective_population_size.png" alt="drawing" width="700"/>
 </p>
 
-
-
-
-As it seems that the chains have converged properly, we are in conditions to estimate the effectice population size.
+As it seems that the chains have converged properly, we are in conditions to estimate the effective population size.
 We will summarize the estimates for each model using the median and the 99% credible interval. 
 ```
 quantile(c(mcmc_boundary1,mcmc_boundary2), prob=c(0.01,.5,0.99) )
