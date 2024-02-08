@@ -79,6 +79,10 @@ mcmc_recurrent_u2 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
 Before summarizing the estimated population size, let us firs check wheather the mcmc chaing converged:
 
 
+<p align="center">
+<img src="https://github.com/mrborges23/mutation_models/blob/main/mcmc_effective_population_size.png" alt="drawing" width="350"/>
+</p>
+
 
 
 We can now summarize the estimates for each model. We here output the 99% credible interval and the median:
