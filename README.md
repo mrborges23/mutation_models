@@ -80,7 +80,7 @@ Before summarizing the estimated population size, let us firs check wheather the
 
 
 <p align="center">
-<img src="https://github.com/mrborges23/mutation_models/blob/main/mcmc_effective_population_size.png" alt="drawing" width="350"/>
+<img src="https://github.com/mrborges23/mutation_models/blob/main/mcmc_effective_population_size.png" alt="drawing" width="500"/>
 </p>
 
 
