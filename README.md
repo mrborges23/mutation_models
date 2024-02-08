@@ -115,4 +115,4 @@ quantile(c(mcmc_recurrent_u1,mcmc_recurrent_u2), prob=c(0.01,.5,0.99) )
 | BM mu uncertain | 9.998025 | 10.03176 | 10.06866 | 
 | BM mu uncertain | 9.384474 | 9.419235 | 9.455736 |
 
-As expected the medians of each models are similar, but because in some of these models we accounts for uncertatinties in the mutation rates, the credible intervals are larger.
+As expected, the medians of each models are similar, but because in some of these models we accounts for uncertatinties in the mutation rate, the credible intervals are larger.
