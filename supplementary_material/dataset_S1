@@ -1,0 +1,149 @@
+group	species	mutation_rate	mutation_rate_se	silent_site_diversity	effective_population_size	ploidy	transition_transversion_ratio
+Bacteria	Agrobacterium tumefaciens C58	2.92E-10	1.5E-11	0.195	333904110	1	1.279
+Bacteria	Bacillus subtilis NCIB3610	3.28E-10	2.1E-11	0.0315	48018293	1	3.247
+Bacteria	Burkholderia cenocepacia HI2424	1.33E-10	8E-12	0.0657	246992481	1	1.17
+Bacteria	Caulobacter crescentus NA1000	3.46E-10	2.15E-11	0.03963	57268786	1	3.52
+Bacteria	Colwellia psychrerythraea 34H	8.38E-10	4.191E-11	0.42418	253090692	1	4.655
+Bacteria	Escherichia coli K12	2.25E-10	1.2E-11	0.07142	158711111	1	1.284
+Bacteria	Flavobacterium sp.  KBS0721	3.91E-10	1.623E-11	0.04507	57631714	1	1.055
+Bacteria	Janthinobacterium lividum KBS0711	1.22E-10	1.187E-11	0.09329	382336066	1	3.172
+Bacteria	Lactococcus lactis DSMZ20481	1.662E-09	5.835E-11	0.18629	56043923	1	1.165
+Bacteria	Leeuwenhoekiella ZYFB001	5.49E-10	0	0.11957	108893443	1	1.196
+Bacteria	Mesoplasma florum ATCC 33453	9.78E-09	7.1E-10	0.021	1073620	1	1.262
+Bacteria	Micrococcus sp. KBS0714	3.18E-10	2.441E-11	0.02929	46053459	1	1.192
+Bacteria	Mycobacterium smegmatis MC2 155	6.425E-10	2.43E-10	0.00721	5610895	1	1.651
+Bacteria	Mycoplasma mycoides JCVI-syn1.0	3.13E-08	1.4E-09	0.04095	654153	1	0
+Bacteria	Nonlabens SY33080	5.21E-10	0	0.03285	31525912	1	1.166
+Bacteria	Photorhabdus luminescens ATCC 29999	5.94E-11	7.08E-12	0.0831	699494949	1	1.013
+Bacteria	Prochlorococcus marinus AS9601	3.5E-10	6.58E-11	0.0185	26428571	1	0
+Bacteria	Pseudomonas aeruginosa PA14	7.92E-11	1.103E-11	0.0281	177420034	1	1.671
+Bacteria	Pseudomonas fluorescens SBW25	9.3E-11	6.6E-12	0.33359	1793494624	1	1.72
+Bacteria	Rhodobacter sphaeroides ATCC 17025	1.17E-10	1.13E-11	0.10925	466880342	1	3.804
+Bacteria	Ruegeria pomeroyi DSS-3	1.39E-10	8.37E-12	0.09975	358812950	1	1.42
+Bacteria	Salmonella enterica	1.14E-10	8E-12	0.0265	116228070	1	1.91
+Bacteria	Staphylococcus aureus ATCC 25923	4.38E-10	2.648E-11	0.03214	36693303	1	1.389
+Bacteria	Staphylococcus epidermidis ATCC 12228	7.4E-10	6.6E-11	0.052	35135135	1	0
+Bacteria	Streptococcus pneumoniae D39	1.01E-08	0	0.023	1138614	1	1.1
+Bacteria	Streptococcus suis	1.225E-09	0	0.11747	47946939	1	1.416
+Bacteria	Teredinibacter turnerae T7901	1.14E-09	5.5E-10	0.1026	45000000	1	3.48
+Bacteria	Vibrio cholerae 2740-80	1.07E-10	9.4E-12	0.0655	306074766	1	1.59
+Bacteria	Vibrio fischeri ES114	2.07E-10	2.17E-11	0.067	161835749	1	0.851
+Bacteria	Vibrio shilonii BAA-91	2.29E-10	2.5E-11	0.0474	103493450	1	1.3
+Archaea	Halobacterium salinarum NRC-1	3.99E-10	5.9E-11	0.01058	13253133	1	0
+Archaea	Haloferax volcanii DS2	3.15E-10	2.7E-11	0.01201	19057143	1	0
+Archaea	Thermococcus eurythermalis A501	7.157E-09	3.2742E-10	0.083	5798519	1	1.15
+Unicellular eukaryotes	Bathycoccus prasinos RCC1105	3.02E-10	6.339E-11	0.0109	18046358	1	0.375
+Unicellular eukaryotes	Chlamydomonas reinhardtii	9.63E-10	1.264E-11	0.03183	16526480	1	0.944
+Unicellular eukaryotes	Emiliania huxleyi RCC1242	5.5E-10	3.675E-11	0.0085	3863636	2	1.027
+Unicellular eukaryotes	Hanseniaspora osmophila Y-1381	1.66E-10	1.1E-11	0.0063	9487952	2	1.158
+Unicellular eukaryotes	Hanseniaspora uvarum Y-1612	1.6E-10	9E-11	0.02066	32281250	2	0.923
+Unicellular eukaryotes	Ostreococcus tauri RCC4221	4.19E-10	4.392E-11	0.01676	20000000	1	3.55
+Unicellular eukaryotes	Paramecium biaurelia	2.44E-11	4.47E-12	0.0089	91188525	2	2.489
+Unicellular eukaryotes	Paramecium sexaurelia	2.42E-11	4.87E-12	0.0269	277892562	2	2.004
+Unicellular eukaryotes	Paramecium tetraurelia	1.94E-11	3.6E-12	0.0058	74742268	2	0.73
+Unicellular eukaryotes	Phaeodactylum tricornutum RCC2967	4.77E-10	3.925E-11	0.0166	8700210	2	1.323
+Unicellular eukaryotes	Rhodotorula toruloides ATCC10788	1.9E-10	7E-12	0.13451	353973684	1	1.83
+Unicellular eukaryotes	Saccharomyces cerevisiae	3.3517E-10	8.14E-12	0.00798	11896897	1	0.989
+Unicellular eukaryotes	Saccharomycodes ludwigii Y-12793	7.3E-11	9E-12	0.02438	83493151	2	1.719
+Unicellular eukaryotes	Schizosaccharomyces pombe ED668	1.915E-10	1.1E-11	0.00522	13629243	1	0.78
+Unicellular eukaryotes	Tetrahymena thermophila	7.61E-12	2.46E-12	0.0032	105124836	2	0
+Unicellular eukaryotes	Zymoseptoria tritici IPO323	3.05E-10	8.52E-12	0.03024	49573770	1	2.876
+Oligocellular	Ectocarpus sp7 (/ sexual gen.)	4.07E-10	0	0.00323	1984029	2	4.563
+Oligocellular	Marasmius oreades (/ sexual gen.)	7.25E-09	0	0.00957	660000	1	3.227
+Oligocellular	Neurospora crassa (/ mitotic cell div)	6.365E-10	0	0.02015	15824823	1	0
+Oligocellular	Schizophyllum commune (/ mitotic cell div)	2.04E-11	4.48E-12	0.165	4044117647	1	0.905
+Invertebrates	Acyrthosiphon pisum	2.7E-10	4E-11	0.00425	3935185	2	1.866
+Invertebrates	Anopheles coluzzii	0.000000001	2.15E-10	0.026	6500000	2	0
+Invertebrates	Anopheles stephensi	1.36E-09	3.1E-10	0.01382	2541339	2	0
+Invertebrates	Apis mellifera 	6.8E-09	8.9974E-10	0.00443	162922	2	0
+Invertebrates	Bombus terrestris	3.58E-09	7.4639E-10	0.00248	173400	2	0
+Invertebrates	Bombyx mori	4.1E-09	4E-10	0.00946	576730	2	1.435
+Invertebrates	Caenorhabditis briggsae	1.3277E-09	9.08E-11	0.00149	279619	2	0.93
+Invertebrates	Caenorhabditis elegans	3.7725E-09	1.0109E-10	0.00187	123923	2	0.85
+Invertebrates	Chironomus riparius	5.422E-09	4.6166E-10	0.01033	476472	2	1.633
+Invertebrates	Daphnia galeata	7.45E-10	7.179E-11	0.0092	3087248	2	0.5
+Invertebrates	Daphnia magna	8.96E-09	3.5131E-10	0.015	418527	2	1.54
+Invertebrates	Daphnia pulex	3.1175E-09	1.7964E-10	0.01829	1466319	2	1.58
+Invertebrates	Drosophila melanogaster	4.492E-09	1.58E-09	0.01115	620548	2	1.439
+Invertebrates	Drosophila pseudoobscura	8.05E-09	5.659E-09	0.0124	385093	2	0.273
+Invertebrates	Drosophila simulans	4.5E-09	1.2E-09	0.0257	1427778	2	1.381
+Invertebrates	Heliconius melpomene	2.9E-09	1.05E-09	0.02675	2306034	2	1.25
+Invertebrates	Pristionchus pacificus	0.000000002	3.0643E-10	0.014	1750000	2	0.833
+Vertebrates	Ailurus fulgens	1.31E-08	1.78967E-09	0.00131	25000	2	2.029
+Vertebrates	Amphiprion ocellaris	7.37E-09	2.4033E-09	0.00315	106852	2	2.03
+Vertebrates	Aptenodytes forsteri	1.41E-08	3.63519E-09	0.00382	67684	2	2.222
+Vertebrates	Ara glaucogularis	0.00000001	3.18304E-09	0.00096	23965	2	2.875
+Vertebrates	Arctocephalus gazella	6.78E-09	9.731E-10	0.00299	110259	2	2.875
+Vertebrates	Betta splendens	4.36E-09	2.17562E-09	0.00322	184633	2	2.333
+Vertebrates	Canis lupus	6.585E-09	0	0.00151	57327	2	0
+Vertebrates	Capra hircus	5.26E-09	8.887E-10	0.00338	160499	2	1.913
+Vertebrates	Cavia aperea	8.66013E-09	1.25941E-09	0.00943	272347	2	3.789
+Vertebrates	Ceratotherium simum simum	9.56234E-09	2.09581E-09	0.00101	26474	2	2.077
+Vertebrates	Cervus elaphus yarkandensis	6.71364E-09	2.80054E-09	0.0026	96977	2	1.75
+Vertebrates	Cervus nippon	4.70592E-09	1.07981E-09	0.00421	223582	2	0.75
+Vertebrates	Chauna torquata	7.06263E-09	2.6173E-09	0.00318	112457	2	1.76
+Vertebrates	Chlorocebus aethiops	9.1E-09	9.3398E-10	0.0004	10852	2	0
+Vertebrates	Chrysemys picta	4.60803E-09	5.3936E-10	0.00669	363019	2	1.76
+Vertebrates	Clupea harengus	0.000000002	6.1406E-10	0.0032	400000	2	0
+Vertebrates	Coleonyx brevis	6.33032E-09	1.90793E-09	0.00212	83915	2	1.625
+Vertebrates	Coturnix japonica	5.67267E-09	9.7299E-10	0.01032	454810	2	3.333
+Vertebrates	Cyanistes caeruleus	5.19389E-09	1.40986E-09	0.00368	176926	2	1.889
+Vertebrates	Cynoglossus semilaevis	9.13427E-09	3.0561E-09	0.00734	201012	2	1.125
+Vertebrates	Eublepharis macularius	5.75E-09	1.64803E-09	0.00423	184017	2	2.6
+Vertebrates	Felis catus	6.045E-09	7.76E-10	0.00374	154673	2	1.987
+Vertebrates	Ficedula albicollis	4.6E-09	6.25E-10	0.004	217391	2	2.67
+Vertebrates	Fukomys damarensis	7.41E-09	9.9003E-10	0.00119	40138	2	2.6
+Vertebrates	Gallus gallus	3.6268E-09	2.05358E-09	0.00321	221089	2	5
+Vertebrates	Giraffa camelopardalis	1.00732E-08	2.2331E-09	0.00245	60787	2	1.786
+Vertebrates	Gorilla gorilla	1.125E-08	9.5E-10	0.00158	35111	2	2.03
+Vertebrates	Gyps fulvus	2.61066E-09	1.61981E-09	0.00214	204773	2	4
+Vertebrates	Hippopotamus amphibius	1.18558E-08	2.59764E-09	0.00288	60709	2	3
+Vertebrates	Homo sapiens	1.29487E-08	7.0399E-10	0.00114	22010	2	1.857
+Vertebrates	Hylobates lar	7.0528E-09	1.7824E-09	0.00299	105938	2	0
+Vertebrates	Larimichthys crocea	2.25529E-09	2.17899E-09	0.00903	1001281	2	0
+Vertebrates	Larus argentatus	7.41342E-09	1.10016E-09	0.00186	62746	2	4.438
+Vertebrates	Larus marinus	8.73106E-09	2.10737E-09	0.003	85790	2	3.125
+Vertebrates	Macaca mulatta	5.8E-09	8.0827E-10	0.00257	110647	2	2.846
+Vertebrates	Mandrillus leucophaeus	6.33183E-09	1.17247E-09	0.00309	121946	2	3.308
+Vertebrates	Microcebus murinus	1.64E-08	1.45E-09	0.00269	41006	2	1.03
+Vertebrates	Monodelphis domestica	4.6016E-09	1.29663E-09	0.00363	197243	2	1
+Vertebrates	Moschus berezovskii	1.0022E-08	2.22138E-09	0.00213	53066	2	3.333
+Vertebrates	Mus musculus	5.63689E-09	1.65051E-09	0.00366	162128	2	1.857
+Vertebrates	Neovison vison	4.64252E-09	0	0.00135	72792	2	2
+Vertebrates	Odobenus rosmarus	1.32372E-08	0	0.00067	12691	2	2.615
+Vertebrates	Ornithorhynchus anatinus	0.000000007	0	0.0009	32143	2	0
+Vertebrates	Pan troglodytes	1.3328E-08	8.45E-09	0.0009	16882	2	1.857
+Vertebrates	Panthera pardus	8.83625E-09	2.0716E-09	0.00104	29295	2	1.188
+Vertebrates	Pelecanus crispus	9.12221E-09	2.89958E-09	0.00105	28725	2	3.75
+Vertebrates	Phoenicopterus roseus	1.6593E-08	3.94533E-09	0.00439	66215	2	1.615
+Vertebrates	Pithecia pithecia	9.93734E-09	1.045E-09	0.00274	68898	2	2.531
+Vertebrates	Platalea ajaja	1.69396E-08	4.21604E-09	0.00136	20010	2	1.385
+Vertebrates	Pogona vitticeps	1.43391E-08	2.52447E-09	0.01575	274545	2	1.935
+Vertebrates	Pongo abelii	1.66E-08	2.33E-09	0.00316	47540	2	1.632
+Vertebrates	Procavia capensis	9.19544E-09	1.22011E-09	0.00138	37457	2	2.808
+Vertebrates	Pungitius pungitius	4.36E-09	2.8E-10	0.0025	143349	2	1.698
+Vertebrates	Pygoscelis adeliae	1.50376E-08	3.74535E-09	0.00498	82844	2	2.1
+Vertebrates	Rangifer tarandus	5.89048E-09	1.75568E-09	0.00232	98330	2	2.909
+Vertebrates	Rhea pennata	3.9789E-08	6.16465E-09	0.00261	16379	2	1.581
+Vertebrates	Rousettus aegyptiacus	8.10563E-09	2.2031E-09	0.00299	92351	2	2.25
+Vertebrates	Saimiri boliviensis boliviensis	6.89871E-09	1.01776E-09	0.00199	72059	2	1.933
+Vertebrates	Salmo salar	4.31016E-09	1.50181E-09	0.00191	110855	2	0.667
+Vertebrates	Sarcophilus harrisii	5.94535E-09	1.55146E-09	0.0006	25372	2	1.333
+Vertebrates	Saxicola maurus	6.67656E-09	1.24971E-09	0.00629	235383	2	1.895
+Vertebrates	Sphaerodactylus inigoi	1.35994E-08	4.63143E-09	0.00851	156392	2	1.667
+Vertebrates	Syngnathus scovelli	5.58755E-09	2.0716E-09	0.00735	328939	2	6
+Vertebrates	Sus scrofa / suis	3.96E-09	7.6571E-10	0.00505	318813	2	0
+Vertebrates	Taeniopygia guttata	5.84706E-09	2.08889E-09	0.00985	421090	2	4
+Vertebrates	Tapirus indicus	4.80353E-09	1.52518E-09	0.00135	70147	2	2.8
+Vertebrates	Thamnophis sirtalis	2.54289E-08	4.18054E-09	0.01309	128666	2	1.692
+Vertebrates	Tupaia belangeri	7.49239E-09	1.05591E-09	0.00212	70894	2	3.174
+Vertebrates	Turdus merula	6.96983E-09	1.47583E-09	0.00541	193960	2	3.778
+Vertebrates	Tursiops truncatus	8.83287E-09	2.16641E-09	0.00124	35222	2	1.909
+Vertebrates	Vicugna pacos	9.44254E-09	2.35126E-09	0.00353	93477	2	2.444
+Vertebrates	Vulpes vulpes	4.46118E-09	1.49764E-09	0.00216	120989	2	2.4
+Vascular plants	Arabidopsis thaliana	6.1345E-09	1.39512E-09	0.00615	250632	2	1.593
+Vascular plants	Populus trichocarpa	1.99E-09	1.51E-09	0.0054	678392	2	2.01
+Vascular plants	Silene latifolia	7.31E-09	7E-10	0.01703	582250	2	1.294
+Vascular plants	Spirodela polyrhiza	1.3745E-10	2.466E-11	0.0007	1266824	2	2.23
+Vascular plants	Quercus robur	0.000000047	5.79409E-09	0.00852	45319	2	0
+Vascular plants	Zea mays subsp. mexicana	3.02E-08	5.0166E-10	0.016	132450	2	2.34
