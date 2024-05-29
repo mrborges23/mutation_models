@@ -5,7 +5,7 @@ These models differ in that the BM model only permits mutations in monomorphic o
 The RM model is thus more appropriate for species with higher levels of diversity, such as the generality of prokaryotes. 
 
 If you want to know more about the mechanics of these models, our should read the first section of:
-* Borges (2024) Evalutating the rarity of mutations in population genetics inferences biorXiv
+* SOON
 
 To run these estimators, you will need two (or three) things:
 * the empirical sampled frequency spectrum or the allelic counts
