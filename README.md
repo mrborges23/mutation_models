@@ -62,20 +62,20 @@ We are now able to run the estimators:
 set.seed(1)
 
 # boundary mutation model with fixed mu
-mcmc_boundary1 <- mcmc_boundary(I,counts,mu)
-mcmc_boundary2 <- mcmc_boundary(I,counts,mu)
+mcmc_boundary1 <- mcmc_boundary(100000,counts,mu)
+mcmc_boundary2 <- mcmc_boundary(100000,counts,mu)
 
 # recurrent mutation model with fixed mu
-mcmc_recurrent1 <- mcmc_recurrent(I,counts,mu)
-mcmc_recurrent2 <- mcmc_recurrent(I,counts,mu)
+mcmc_recurrent1 <- mcmc_recurrent(100000,counts,mu)
+mcmc_recurrent2 <- mcmc_recurrent(100000,counts,mu)
 
 # boundary mutation model with uncertain mu
-mcmc_boundary_u1 <- mcmc_boundary_umu(I,counts,mu,sd/2)
-mcmc_boundary_u2 <- mcmc_boundary_umu(I,counts,mu,sd/2)
+mcmc_boundary_u1 <- mcmc_boundary_umu(100000,counts,mu,sd/2)
+mcmc_boundary_u2 <- mcmc_boundary_umu(100000,counts,mu,sd/2)
 
 # recurrent mutation model with uncertain mu
-mcmc_recurrent_u1 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
-mcmc_recurrent_u2 <- mcmc_recurrent_umu(I,counts,mu,sd/2)
+mcmc_recurrent_u1 <- mcmc_recurrent_umu(100000,counts,mu,sd/2)
+mcmc_recurrent_u2 <- mcmc_recurrent_umu(100000,counts,mu,sd/2)
 ```
 Before summarizing the estimated population size, let us first check whether the MCMC chains converged and mixed properly. 
 You can use the following code to produce trace plots.
