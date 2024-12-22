@@ -308,7 +308,7 @@ mcmc_recurrent_umu <- function(I,counts,mu,sd){
       
       # samples a new mutation rate
       # updates the mutation rate and the likelihood
-      mcmc$mu <- rnorm(1,mu,sd)
+      mcmc$mu <- rnorm(1,mu,sd) # other distribution could be used
       mcmc$lk <- llik_sampled_recurrent_sfs(mcmc$counts,mcmc$lN,mcmc$mu)
       mcmc    <- mh_recurrent_N(mcmc)
       
@@ -368,7 +368,7 @@ mcmc_boundary_umu <- function(I,counts,mu,sd){
       
       # samples a new mutation rate
       # updates the mutation rate and the likelihood
-      mcmc$mu <- rnorm(1,mu,sd)
+      mcmc$mu <- rnorm(1,mu,sd) # other distribution could be used
       mcmc$lk <- llik_sampled_boundary_sfs(mcmc$counts,mcmc$lN,mcmc$mu)
       mcmc    <- mh_boundary_N(mcmc)
       
