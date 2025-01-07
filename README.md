@@ -5,7 +5,7 @@ These models differ in that the BM model only permits mutations in monomorphic o
 The RM model is thus more appropriate for species with higher levels of diversity, such as the generality of prokaryotes. 
 
 If you want to know more about the mechanics of these models, our should read the first section of:
-* SOON
+* Borges (2025) Methods in Ecology and Evolution, in press
 
 To run these estimators, you will need two (or three) things:
 * the empirical sampled frequency spectrum or the allelic counts
